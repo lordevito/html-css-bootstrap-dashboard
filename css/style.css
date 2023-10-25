@@ -6,5 +6,21 @@ COMMON
 
 body{
     font-family: 'Roboto', sans-serif;
-    
+
+}
+
+header .row{
+    height: 4.375rem;
+}
+
+.w-80{
+    width: 5rem;
+}
+
+.bg-grey{
+    background-color: #e5e5e5;
+}
+
+.c-gold{
+    color: #ff8f00;
 }
