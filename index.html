@@ -57,8 +57,8 @@
         </div>
     </header>
     <!--Inizio Main-->       
-        <div class="h-navbar d-flex">
-            <div class=" bg-blue flex-shrink-0 p-4" id="bg-images">
+        <div class="d-flex">
+            <div class="h-navbar bg-blue flex-shrink-0 p-4" id="bg-images">
                 <ul class="h-100 d-flex flex-column list-unstyled ">
                     <li>
                         <a href="#" class="text-white text-decoration-none active">
@@ -82,7 +82,98 @@
                     </li>
                 </ul>
             </div>
-            <main>
+            <main class="flex-grow-1">
+                <div class="ldv-bg-lightblue">
+                    <div class="text-white d-flex p-3">
+                        <div class="gap-3 d-flex">
+                            <h3>Nuovo studente</h3>
+                            <button type="button" class="btn border" data-bs-toggle="offcanvas" href="#offcanvasExample" aria-controls="offcanvasExample"><i
+                                class="fa-solid fa-plus text-white"></i></button>
+                                <div class="offcanvas offcanvas-end ldv-w-offcanvas" tabindex="1" id="offcanvasExample"
+                                    aria-labelledby="offcanvasExampleLabel">
+                                    <div class="offcanvas-header">
+                                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Inserisci un nuovo
+                                            studente</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <form class="form">
+                                        <div class="row mx-1 my-1">
+                                            <div class="col">
+                                                <label for="InputName" class="form-label">Nome</label>
+                                                <input type="text" value="" class="form-control" id="InputName"
+                                                    aria-describedby="emailHelp">
+                                            </div>
+                                            <div class="col">
+                                                <label for="InputEmail" class="form-label">Cognome</label>
+                                                <input type="email" value="" class="form-control" id="InputEmail"
+                                                    aria-describedby="emailHelp">
+                                            </div>
+                                        </div>
+                                        <div class="row mx-1 my-1">
+                                            <div class="col">
+                                                <label for="InputName" class="form-label">Nome</label>
+                                                <div class="input-group">
+                                                    <span class="input-group-text" id="basic-addon1">@</span>
+                                                    <input type="text" value="" class="form-control" id="InputName"
+                                                        aria-describedby="basic-addon1">
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <label for="InputPassword" class="form-label">Password</label>
+                                                <input type="password" value="" class="form-control" id="InputPassword"
+                                                    aria-describedby="emailHelp">
+                                            </div>
+                                        </div>
+                                        <div class="row mx-1 my-1">
+                                            <div class="col">
+                                                <label for="InputAddress" class="form-label">Indirizzo</label>
+                                                <input type="text" value="" class="form-control" id="InputAddress"
+                                                    aria-describedby="emailHelp">
+                                            </div>
+                                        </div>
+                                        <div class="row mx-1 my-1">
+                                            <div class="col">
+                                                <label for="InputCity" class="form-label">Città</label>
+                                                <input type="text" value="" class="form-control" id="InputCity"
+                                                    aria-describedby="emailHelp">
+                                            </div>
+                                            <div class="col-4">
+                                                <label for="disabledSelect" class="form-label">Stato</label>
+                                                <select id="disabledSelect" class="form-select">
+                                                    <option>Italia</option>
+                                                </select>
+
+                                            </div>
+                                            <div class="col-2">
+                                                <label for="InputCap" class="form-label">CAP</label>
+                                                <input type="text" value="" class="form-control" id="InputCap"
+                                                    aria-describedby="emailHelp">
+                                            </div>
+                                        </div>
+                                        <div class="mx-3 my-1">
+                                            <div class="col">
+                                                <label for="formFile" class="form-label">Foto</label>
+                                                <input class="form-control" value="" type="file" id="formFile">
+                                            </div>
+                                        </div>
+                                        <div class="form-check mx-3 my-4">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Seleziona per proseguire
+                                            </label>
+                                        </div>
+                                        <div class="mx-3 my-1">
+                                            <button type="button" class="btn btn-primary">Salva</button>
+                                            <button type="reset" value="reset" class="btn btn-warning">Svuota</button>
+                                        </div>
+                                    </form>
+                                </div>    
+                        </div>
+                    </div>
+                </div>
+                <div>2</div>
             </main>
         </div>  
     <!--Link Script--> 

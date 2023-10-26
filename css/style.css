@@ -13,6 +13,8 @@ body{
     width: 9.375rem;
 }
 
+
+
 .bg-grey{
     background-color: #e5e5e5;
 }
@@ -52,6 +54,30 @@ NAVBAR
 #bg-images{
     background-image:url(/img/sidebar-bg.png);
     background-size: cover;
+}
+
+/*
+***********
+MAIN
+***********
+*/
+
+main{
+    width: 100%;
+}
+
+.ldv-bg-lightblue{
+    background-color: #1b72e8;
+}
+
+/*
+***********
+OFFCANVAS
+***********
+*/
+
+.ldv-w-offcanvas{
+    width: 600px !important;;
 }
 
 /*
