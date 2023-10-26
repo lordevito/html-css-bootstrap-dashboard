@@ -9,10 +9,6 @@ body{
 
 }
 
-header .row{
-    height: 4.375rem;
-}
-
 .w-150{
     width: 9.375rem;
 }
@@ -23,4 +19,50 @@ header .row{
 
 .c-gold{
     color: #ff8f00;
+}
+
+.bg-blue{
+    background-color: #051e34;
+}
+
+/*
+***********
+HEADER
+***********
+*/
+
+header .row{
+    height: 4.375rem;
+}
+
+.ldv-logo-small{
+    width: 50px;
+}
+
+/*
+***********
+NAVBAR
+***********
+*/
+
+.h-navbar{
+    height: calc(100vh - 4.375rem);
+}
+
+#bg-images{
+    background-image:url(/img/sidebar-bg.png);
+    background-size: cover;
+}
+
+/*
+***********
+RESPONSIVE
+***********
+*/
+
+@media (min-width: 992px){
+
+    .h-navbar{
+        width: 9.375rem;
+    }
 }
