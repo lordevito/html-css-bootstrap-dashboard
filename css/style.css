@@ -13,7 +13,14 @@ body{
     width: 9.375rem;
 }
 
+.bg-whit{
+    background-color: #f7f7f7;
+}
 
+
+.ldv-tex-g{
+    color: #6c757d;
+}
 
 .bg-grey{
     background-color: #e5e5e5;
@@ -95,7 +102,18 @@ OFFCANVAS
 
 /*
 ***********
-SEZIONE BREADCRUMB
+TABELLA MAIN
+***********
+*/
+
+.ldv-tb-i{
+    width: 30px;
+    height: 30px;
+}
+
+/*
+***********
+TABELLA MAIN
 ***********
 */
 
@@ -122,6 +140,15 @@ RESPONSIVE
         width: 37px;
         height: 37px;
     }
+
+    #ldv-f-w{
+        font-size: 12px;
+    }
+
+    #bigbox{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 
@@ -132,4 +159,5 @@ RESPONSIVE
     .h-navbar{
         width: 9.375rem;
     }
+
 }
