@@ -27,6 +27,19 @@ body{
     background-color: #051e34;
 }
 
+.ldv-b-breadcumb{
+    background-color: #165bba;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 1px 4px !important;
+}
+
+.ldv-flex{
+    display: flex;
+}
+
 /*
 ***********
 HEADER
@@ -82,9 +95,37 @@ OFFCANVAS
 
 /*
 ***********
+SEZIONE BREADCRUMB
+***********
+*/
+
+
+/*
+***********
 RESPONSIVE
 ***********
 */
+
+/*768px*/
+
+@media screen and (min-width: 768px){
+
+    .ldv-bg-lightblue{
+        display: flex;
+    }
+
+    #change{
+        order: 1;
+    }
+
+    #square{
+        width: 37px;
+        height: 37px;
+    }
+}
+
+
+/*992px*/
 
 @media (min-width: 992px){
 
